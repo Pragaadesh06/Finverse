@@ -1,0 +1,22 @@
+{
+  "model_name": "Isolation Forest Unsupervised Anomaly Detector",
+  "model_version": "Finverse-IsoForest-v1.0",
+  "trained_at": "2026-10-13T09:14:35.871181+00:00",
+  "n_estimators": 100,
+  "contamination": 0.08,
+  "features": [
+    "amount_log",
+    "amount_to_median_ratio",
+    "channel_risk",
+    "hour_of_day",
+    "is_night_txn",
+    "is_foreign_country",
+    "is_high_risk_country",
+    "is_round_amount"
+  ],
+  "train_samples": 5000,
+  "score_offset": -0.560287201614485,
+  "min_decision_score": -0.21667257653961636,
+  "max_decision_score": 0.1931913752236658,
+  "median_decision_score": 0.15723618306162596
+}
